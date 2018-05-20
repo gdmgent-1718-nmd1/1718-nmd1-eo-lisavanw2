@@ -24,7 +24,7 @@ body {
 
 /* line 33, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .headertext {
-  background-color: #3196ff;
+  background-color: black;
   color: white;
   min-height: 100px;
   max-width: 90%;
@@ -33,26 +33,19 @@ body {
   .headertext img {
     max-height: 80px;
     border-radius: 80px;
-    position: absolute;
     margin-top: 8px; }
-  /* line 40, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
-  .headertext #vrouw {
-    float: left;
-    margin-left: 20%; }
   /* line 44, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
-  .headertext #boyband {
-    margin-left: 60%; }
-  /* line 53, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .headertext p {
     z-index: 1;
     text-align: center;
     font-size: 70px;
     margin: 0 auto;
     padding-top: 10px;
+    padding-bottom: 20px;
     line-height: 80px;
     font-family: "Alfa Slab One", cursive;
     position: relative; }
-  /* line 63, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 55, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .headertext a {
     float: right;
     font-size: 16px;
@@ -60,14 +53,14 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; }
-  /* line 71, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 63, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .headertext .dropdown {
     border-radius: 5px;
     float: right;
     padding-right: 15px;
     margin-top: -60px;
     overflow: hidden; }
-    /* line 77, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+    /* line 69, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
     .headertext .dropdown .dropbtn {
       font-size: 16px;
       border: none;
@@ -77,18 +70,18 @@ body {
       background-color: #333;
       font-family: inherit;
       margin: 0; }
-  /* line 88, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 80, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .headertext a:hover,
   .headertext .dropdown:hover .dropbtn {
     background-color: #ffdd26; }
-  /* line 92, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 84, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .headertext .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1; }
-    /* line 98, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+    /* line 90, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
     .headertext .dropdown-content a {
       float: none;
       color: black;
@@ -96,12 +89,12 @@ body {
       text-decoration: none;
       display: block;
       text-align: right; }
-  /* line 107, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 99, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .headertext .dropdown:hover .dropdown-content {
     display: block; }
 
 /*navigatie tot lijn 162*/
-/* line 114, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 106, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .navbar {
   width: 100%;
   max-width: 90%;
@@ -111,18 +104,18 @@ body {
   background-color: #333;
   font-family: Arial;
   text-align: center; }
-  /* line 123, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 115, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .navbar ul {
     display: inline-block;
     align-content: space-between; }
-    /* line 126, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+    /* line 118, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
     .navbar ul li {
       float: left;
       margin: -10px 0px; }
-      /* line 129, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+      /* line 121, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
       .navbar ul li a {
         display: block; }
-  /* line 134, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 126, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .navbar a {
     float: left;
     font-size: 16px;
@@ -131,11 +124,11 @@ body {
     text-align: center;
     padding: 15px 17px;
     text-decoration: none; }
-  /* line 143, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 135, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .navbar .dropdown {
     float: left;
     overflow: hidden; }
-    /* line 146, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+    /* line 138, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
     .navbar .dropdown .dropbtn {
       font-size: 16px;
       border: none;
@@ -145,12 +138,12 @@ body {
       background-color: inherit;
       font-family: inherit;
       margin: 0; }
-  /* line 157, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 149, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .navbar a:hover,
   .navbar .dropdown:hover .dropbtn {
     background-color: #ffdd26;
     color: #333; }
-  /* line 163, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 155, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .navbar .dropdown-content {
     display: none;
     position: absolute;
@@ -158,7 +151,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1; }
-    /* line 170, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+    /* line 162, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
     .navbar .dropdown-content a {
       float: none;
       color: black;
@@ -167,49 +160,49 @@ body {
       display: block;
       margin-top: -5px;
       text-align: left; }
-  /* line 180, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 172, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .navbar .dropdown:hover .dropdown-content {
     display: block; }
 
-/* line 185, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 177, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .kleuren,
 .plaatsing,
 .uitleg {
   margin-left: 5%; }
 
 /*kleuren tot lijn 181*/
-/* line 194, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 186, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 #kleur {
   float: left;
   width: 170px;
   padding: 10px 5px;
   margin: 10px 20px 10px 0px; }
-  /* line 199, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 191, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   #kleur li {
     display: block;
     margin-left: -20px; }
 
 /*tabel typo tot lijn 198*/
-/* line 207, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 199, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 table {
   margin-left: 5%; }
-  /* line 209, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 201, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   table th {
     text-align: left;
     min-width: 90px;
     border-bottom: 1px solid #c065d7; }
-  /* line 214, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 206, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   table tr {
     line-height: 25px; }
-  /* line 217, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 209, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   table td {
     padding-right: 15px; }
-  /* line 220, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 212, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   table tr:first-of-type {
     font-size: 20px;
     font-weight: 500; }
 
-/* line 227, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 219, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .buttons #button1,
 .buttons #button2,
 .buttons #button3 {
@@ -227,38 +220,74 @@ table {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s; }
 
-/* line 244, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 236, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .buttons #button1 {
   margin-left: 5%; }
 
-/* line 247, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 239, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .buttons #button1:hover {
   background-color: #c065d7;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   color: white; }
 
-/* line 252, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 244, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .buttons #button2:hover {
   background-color: #ffdd26;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   color: #333; }
 
-/* line 257, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 249, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .buttons #button3:hover {
   background-color: #3196ff;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   color: #333; }
 
-/* line 266, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 255, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+.buttons .hover #button1 {
+  background-color: #c065d7;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: white; }
+
+/* line 260, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+.buttons .hover #button2 {
+  background-color: #ffdd26;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: #333; }
+
+/* line 265, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+.buttons .hover #button3 {
+  background-color: #3196ff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: #333; }
+
+/* line 273, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+hr {
+  margin-top: 20px;
+  margin-right: 5%;
+  background-color: #c065d7; }
+
+/* line 281, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .icons .groot img {
   max-height: 150px;
   margin-left: 5%; }
 
-/* line 271, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+/* line 286, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
 .icons .klein img {
   max-height: 40px; }
-  /* line 273, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  /* line 288, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
   .icons .klein img:first-of-type {
     margin-left: 6%; }
+
+/* line 294, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+footer {
+  background-color: #333;
+  margin-top: 20px;
+  margin-left: -5%; }
+  /* line 298, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+  footer .klein img {
+    max-height: 40px; }
+    /* line 300, C:/Users/lisav/Documents/GitHub/1718-nmd1-eo-lisavanw2/pages/css/pages.scss */
+    footer .klein img:first-of-type {
+      margin-left: 6%; }
 
 /*# sourceMappingURL=pages.css.map */

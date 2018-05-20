@@ -34,18 +34,9 @@ body {
     img {
         max-height: 80px;
         border-radius: 80px;
-        position: absolute;
-        margin-top: 8px;
+        margin-top: 18px;
     }
-    #vrouw {
-        float: left;
-        margin-left: 20%
-    }
-    #boyband {
-        margin-left: 60%
-    }
-
-    background-color: $blauw;
+    background-color: black;
     color: white;
     min-height: 100px;
     max-width: 90%;
@@ -56,6 +47,7 @@ body {
         font-size: 70px;
         margin: 0 auto;
         padding-top: 10px;
+        padding-bottom: 20px;
         line-height: 80px;
         font-family: $alfa;
         position: relative
@@ -259,6 +251,29 @@ table {
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         color: #333;
     }
+    .hover {
+        #button1 {
+            background-color: $paars;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+        #button2 {
+            background-color: $geel;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            color: #333;
+        }
+        #button3 {
+            background-color: $blauw;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            color: #333;
+        }
+    }
+}
+
+hr {
+    margin-top: 20px;
+    margin-right: 5%;
+    background-color: $paars
 }
 
 .icons {
@@ -268,6 +283,18 @@ table {
         margin-left: 5%
     }
 
+    .klein img {
+        max-height: 40px;
+        &:first-of-type {
+            margin-left: 6%
+        }
+    }
+}
+
+footer {
+    background-color: #333;
+    margin-top: 20px;
+    margin-left: -5%;
     .klein img {
         max-height: 40px;
         &:first-of-type {
