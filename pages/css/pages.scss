@@ -1,10 +1,17 @@
+/*attributen*/
+
 $paars: hsla(288, 59%, 62%, 1);
 $blauw: rgb(49, 150, 255);
 $geel: rgb(255, 221, 38);
+$grijs: #333333;
+$lichtgrijs: #f9f9f9;
 $roboto: 'Roboto',
 sans-serif;
 $alfa: 'Alfa Slab One',
 cursive;
+
+/*declareren algemene eigenschappen*/
+
 body {
     margin-left: 5%;
     font-family: $roboto;
@@ -24,11 +31,39 @@ body {
         line-height: 38px;
         clear: both;
     }
-
     p {
         max-width: 700px;
     }
 }
+
+.kleuren,
+.plaatsing,
+.uitleg {
+    margin-left: 5%;
+}
+
+/*grootte van de kleurvlakken bepalen*/
+
+#kleur {
+    float: left;
+    width: 170px;
+    padding: 10px 5px;
+    margin: 10px 20px 10px 0px;
+    li {
+        display: block;
+        margin-left: -20px;
+    }
+}
+
+/*horizontale lijn tussen de delen*/
+
+hr {
+    margin-top: 20px;
+    margin-right: 5%;
+    background-color: $paars
+}
+
+/*hele uitwerking van de navigatie*/
 
 .navigatie {
     background: linear-gradient(black 70%, rgba(51, 51, 51, 0.9) 92%, white);
@@ -47,176 +82,153 @@ body {
             }
         }
     }
-}
-
-.headertext {
-    img {
-        max-height: 80px;
-        border-radius: 80px;
-        margin-top: 18px;
-    }
-    color: white;
-    min-height: 100px;
-    max-width: 90%;
-    margin-bottom: -5px;
-    p {
-        z-index: 1;
-        text-align: center;
-        font-size: 70px;
-        margin: 0 auto;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        line-height: 80px;
-        font-family: $alfa;
-        position: relative
-    }
-    a {
-        float: right;
-        font-size: 16px;
+    .headertext {
+        img {
+            max-height: 80px;
+            border-radius: 80px;
+            margin-top: 18px;
+        }
         color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    .dropdown {
-        border-radius: 5px;
-        float: right;
-        padding-right: 15px;
-        margin-top: -60px;
-        overflow: hidden;
-        .dropbtn {
-            font-size: 16px;
-            border: none;
-            outline: none;
-            color: white;
-            padding: 14px 16px;
-            background-color: #333;
-            font-family: inherit;
-            margin: 0;
-        }
-    }
-    a:hover,
-    .dropdown:hover .dropbtn {
-        background-color: $geel;
-    }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-        a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: right
-        }
-    }
-    .dropdown:hover .dropdown-content {
-        display: block
-    }
-}
-
-/*navigatie tot lijn 162*/
-
-.navbar {
-    img {
-        max-height: 25px;
-        margin-top: -5px;
+        min-height: 100px;
+        max-width: 90%;
         margin-bottom: -5px;
-    }
-    width: 100%;
-    border-radius: 5px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    font-family: Arial;
-    text-align: center;
-    padding-bottom: 20px;
-    ul {
-        display: inline-block;
-        align-content: space-between;
-        li {
-            float: left;
-            margin: -10px 0px;
-            a {
-                display: block;
+        p {
+            z-index: 1;
+            text-align: center;
+            font-size: 70px;
+            margin: 0 auto;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            line-height: 80px;
+            font-family: $alfa;
+            position: relative
+        }
+        a {
+            float: right;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .dropdown {
+            border-radius: 5px;
+            float: right;
+            padding-right: 15px;
+            margin-top: -60px;
+            overflow: hidden;
+            .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: $grijs;
+                font-family: inherit;
+                margin: 0;
             }
         }
-    }
-    a {
-        float: left;
-        font-size: 16px;
-        line-height: 18px;
-        color: white;
-        text-align: center;
-        padding: 15px 17px;
-        text-decoration: none;
-    }
-    .dropdown {
-        float: left;
-        overflow: hidden;
-        .dropbtn {
-            font-size: 16px;
-            border: none;
-            outline: none;
-            color: white;
-            padding: 15px 17px;
-            background-color: inherit;
-            font-family: inherit;
-            margin: 0;
+        a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: $geel;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: $lichtgrijs;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: right
+            }
+        }
+        .dropdown:hover .dropdown-content {
+            display: block
         }
     }
-    a:hover,
-    .dropdown:hover .dropbtn {
-        background-color: $geel;
-        color: #333
-    }
 
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-        a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
+    .navbar {
+        img {
+            max-height: 25px;
             margin-top: -5px;
-            text-align: left
+            margin-bottom: -5px;
+        }
+        width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        font-family: $roboto;
+        font-weight: 100;
+        text-align: center;
+        padding-bottom: 20px;
+        ul {
+            display: inline-block;
+            align-content: space-between;
+            li {
+                float: left;
+                margin: -10px 0px;
+                a {
+                    display: block;
+                }
+            }
+        }
+        a {
+            float: left;
+            font-size: 16px;
+            line-height: 18px;
+            color: white;
+            text-align: center;
+            padding: 15px 17px;
+            text-decoration: none;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            .dropbtn {
+                font-size: 16px;
+                font-weight: 100;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 15px 17px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+        }
+        a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: $geel;
+            color: $grijs;
+            font-weight: normal;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: $lichtgrijs;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                margin-top: -5px;
+                text-align: left
+            }
+        }
+        .dropdown:hover .dropdown-content {
+            display: block
         }
     }
-    .dropdown:hover .dropdown-content {
-        display: block
-    }
 }
-
-.kleuren,
-.plaatsing,
-.uitleg {
-
-    margin-left: 5%
-}
-
-/*kleuren tot lijn 181*/
-
-#kleur {
-    float: left;
-    width: 170px;
-    padding: 10px 5px;
-    margin: 10px 20px 10px 0px;
-    li {
-        display: block;
-        margin-left: -20px;
-    }
-}
-
-/*tabel typo tot lijn 198*/
 
 table {
     margin-left: 5%;
@@ -241,7 +253,7 @@ table {
     #button1,
     #button2,
     #button3 {
-        background-color: #333;
+        background-color: $grijs;
         border: none;
         color: white;
         padding: 10px 20px;
@@ -266,12 +278,12 @@ table {
     #button2:hover {
         background-color: $geel;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        color: #333;
+        color: $grijs;
     }
     #button3:hover {
         background-color: $blauw;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        color: #333;
+        color: $grijs;
     }
     .hover {
         #button1 {
@@ -282,47 +294,51 @@ table {
         #button2 {
             background-color: $geel;
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            color: #333;
+            color: $grijs;
         }
         #button3 {
             background-color: $blauw;
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            color: #333;
+            color: $grijs;
         }
     }
 }
 
-hr {
-    margin-top: 20px;
-    margin-right: 5%;
-    background-color: $paars
-}
+/*de contact-icons in de footer*/
 
 .icons {
-
     .groot img {
         max-height: 150px;
-        margin-left: 5%
+        margin-left: 5%;
+        background-color: $grijs;
     }
-
     .klein img {
+        background-color: $grijs;
         max-height: 40px;
+        margin-right: 10px;
         &:first-of-type {
-            margin-left: 6%
+            margin-left: 5%;
         }
     }
 }
 
+/*footer definiëren*/
+
 footer {
-    background: linear-gradient(white, #333 20%);
-    background-color: #333;
-    padding-top: 10px;
+    height: 110px;
+    background: linear-gradient(white, $grijs 20%, black);
     margin-top: 20px;
-    margin-left: -5%;
+    margin-left: -6%;
+    text-align: center;
+    padding-top: 50px;
     .klein img {
         max-height: 40px;
-        &:first-of-type {
-            margin-left: 6%
-        }
+    }
+    p {
+        margin-top: 10px;
+        color: $lichtgrijs;
+        opacity: 0.3;
+        font-family: $roboto;
+        max-width: 100%;
     }
 }
